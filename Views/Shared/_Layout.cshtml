@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - B2C Sample</title>
+</head>
+<body>
+    <div>
+        <nav>
+            <a asp-controller="Home" asp-action="Index">Home</a> |
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a asp-controller="Account" asp-action="SignOut">Logout</a>
+            }
+            else
+            {
+                <a asp-controller="Account" asp-action="SignIn">Login</a>
+            }
+        </nav>
+        <hr />
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+</body>
+</html>

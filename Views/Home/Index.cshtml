@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Welcome to Azure AD B2C Auth Sample </h2>
+@if (User.Identity.IsAuthenticated)
+{
+    <p>Hello, @User.FindFirst("emails")?.Value 131/</p>
+    <a asp-controller="Account" asp-action="SignOut">Logout</a>
+}
+else
+{
+    <a asp-controller="Account" asp-action="SignIn">Login</a>
+}

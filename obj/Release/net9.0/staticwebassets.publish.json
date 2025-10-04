@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "IumT7c9W/ibHHoJn0BVLWmPntjuD4y/YUU+W9wSeqjw=",
+  "Source": "AspNetCoreB2CAuthSample",
+  "BasePath": "_content/AspNetCoreB2CAuthSample",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

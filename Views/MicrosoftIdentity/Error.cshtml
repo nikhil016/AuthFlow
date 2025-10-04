@@ -1,0 +1,12 @@
+﻿@{
+}
+@{
+    ViewData["Title"] = "Authentication Error";
+}
+Authentication Error
+Error Message: @ViewData["ErrorMessage"]
+@if (ViewData["StackTrace"] != null)
+{
+    
+@ViewData["StackTrace"]
+}
