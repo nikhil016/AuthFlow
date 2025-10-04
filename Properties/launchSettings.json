@@ -6,7 +6,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://localhost:44305;http://localhost:44306"
+      "applicationUrl": "https://authflow-ckasefbjeugefhat.centralindia-01.azurewebsites.net/"
     }
   }
 }
