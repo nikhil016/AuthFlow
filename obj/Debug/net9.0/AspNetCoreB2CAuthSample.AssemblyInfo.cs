@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspNetCoreB2CAuthSample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78a599bd7ea9676d8d3069f996cf68887c771558")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4842c78018131aaf9ff883f4d61946233908663")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspNetCoreB2CAuthSample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspNetCoreB2CAuthSample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
